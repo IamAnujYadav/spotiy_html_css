@@ -1,0 +1,101 @@
+.box2 {
+    background-color: rgb(12, 12, 12);
+    width: 67%;
+    height: 490px;
+    overflow-y: scroll;
+    scrollbar-color: black;
+    margin: 20px;
+    border-radius: 11px;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: larger;
+    color: aliceblue;
+}
+
+.nav-bar p {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.nav-bar button {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    height: 25px;
+    border: none;
+    width: 5vw;
+    margin: 0px 1px 0px 10px;
+}
+
+.singer {
+    margin: 20px 0px;
+    background-color: rgb(40, 33, 33);
+}
+
+.Popular {
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.artist {
+    display: flex;
+}
+
+.artist p {
+    padding: 10px 21px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    border: 2px white;
+    width: 120px;
+    height: 150px;
+}
+
+
+.artist img {
+    border-radius: 90px;
+}
+
+/* .artist :hover{
+    color: aliceblue;
+    border: <i class="fa-solid fa-play"></i>;
+} */
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.art {
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.Company{
+    padding: 70px 20px ;
+    color: aliceblue;
+   display: flex;
+   justify-content: space-around;
+}
+
+h3{
+    padding: 5px;
+}
+h3 p{
+    font-size: small;
+    padding: 8px;
+    opacity: 0.7;
+}
